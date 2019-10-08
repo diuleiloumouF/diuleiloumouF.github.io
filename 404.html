@@ -2,7 +2,7 @@
  * @Description: 404
  * @Author: 方俊杰
  * @Date: 2019-08-14 10:56:42
- * @LastEditTime: 2019-10-08 11:18:10
+ * @LastEditTime: 2019-10-08 11:21:31
  * @LastEditors: 方俊杰
  -->
 <!doctype html>
@@ -14,14 +14,15 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="format-detection" content="telephone=no">
 <title>404</title>
-<style>html, body{height:95%;}body{background: #0f3854;background: -webkit-radial-gradient(center ellipse, #0a2e38 0%, #000000 70%);background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);background-size: 100%;}p{margin:0;padding:0;}#clock{font-family: 'Share Tech Mono', monospace;color: #ffffff;text-align: center;position: absolute;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);color: #daf6ff;text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);}#clock .time{letter-spacing: 0.05em;font-size: 60px;padding: 5px 0;}#clock .date{letter-spacing:0.1em;font-size:15px;}#clock .text{letter-spacing: 0.1em;font-size:12px;padding:20px 0 0;}</style>
+<style>html, body{height:95%;}body{background: #0f3854;background: -webkit-radial-gradient(center ellipse, #0a2e38 0%, #000000 70%);background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);background-size: 100%;}p{margin:0;padding:0;}#clock{font-family: 'Share Tech Mono', monospace;color: #ffffff;text-align: center;position: absolute;left: 50%;top: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);color: #daf6ff;text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);}#clock .time{letter-spacing: 0.05em;font-size: 60px;padding: 5px 0;}#clock .date{letter-spacing:0.1em;margin-top:10px;font-size:15px;}#clock .text{letter-spacing: 0.1em;font-size:12px;padding:20px 0 0;}</style>
 <script type="text/javascript" src="time.js"></script>
 </head>
 <body>
 <div id="clock">
-    <p class="time">...404 error page...</p>
-    <p class="date">{{ time }}</p>
+    <p class="time">404 NOT FOUNT</p>
+    <p class="text">找不到页面或还未上线</p>
     <p class="text">{{ date }}</p>
+    <p class="date">{{ time }}</p>
 </div>
 <script>
 var clock = new Vue({
