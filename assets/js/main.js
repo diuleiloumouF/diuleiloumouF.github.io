@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: 方俊杰
+ * @Date: 2019-10-08 11:32:44
+ * @LastEditTime: 2019-10-08 15:11:33
+ * @LastEditors: 方俊杰
+ */
 var iUp = (function () {
 	var t = 0,
 		d = 150,
@@ -102,5 +109,5 @@ $('.btn-mobile-menu__icon').click(function() {
     } else {
       $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
     }
-    $('.btn-mobile-menu__icon').toggleClass('social iconfont icon-list social iconfont icon-angleup animated fadeIn');
+    $('.btn-mobile-menu__icon').toggleClass('social iconfont iconcaidan social iconfont iconxiala animated fadeIn');
 });
